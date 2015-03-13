@@ -1,0 +1,139 @@
+
+html{
+   box-sizing: border-box;
+
+   }
+
+   *, *::before, *::after {
+     box-sizing: inherit;
+   }
+
+h1,h2,h3,h4,h5,p{
+  font-family: 'Noto Sans', bold;
+}
+h1{
+margin:0;
+color:#fff;
+text-align: center;
+background-color: #e7001d;
+}
+
+nav{
+color:#
+background-color:#000;
+}
+
+nav li{
+  display: inline;
+}
+
+ .inset-left{
+   float: left;
+   width: 50%;
+   margin-right: 15px;
+ }
+
+  .p2{
+    clear: both;
+  }
+
+  .inset-left-2{
+    float: right;
+    width:50%;
+    margin-right: 0px;
+    padding :0;
+    border: 0;
+    clear: left;
+  }
+
+
+  .inset-left-3{
+    float:right;
+    width:50%;
+    margin-right: 5px;
+    clear: left;
+    padding: 0;
+    border:0;
+  }
+
+  header {
+    background-color: #cd5b34;
+    color: white;
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+ .medallion{
+   float:center;
+   width:5%;
+   margin:5px;
+   border:0;
+   }
+
+   div{
+     background-color:#e4c22a;
+     border: 1px solid white;
+     overflow: hidden;
+     }
+
+
+   main{
+     background-color: #d98156;
+     float:none;
+     /*width: calc(75% - 2rem); */
+     width:0%;
+     padding:  0rem;
+     color:black;
+   }
+
+
+   aside{
+     float:none;
+     /*width:calc(25% - 2rem);*/
+     width:0%;
+     padding: 0rem;
+     color: white;
+   }
+
+ h2{
+   color: white;
+ }
+
+ .peanuts-left{
+   clear:left;
+   float:left;
+   width:50%;
+   margin:5px;
+   border:0;
+ }
+
+ .beans-left{
+   clear:left;
+   float:left;
+   width:50%;
+   margin:5px;
+   border:0;
+ }
+
+ .lentils-left{
+   clear:left;
+   float:left;
+   width:50%;
+   margin:5px;
+   border:0;
+ }
+
+ footer{
+   background-color:#222222;
+   color:#fff;
+   display: block;
+   margin: 0;
+   text-align: center;
+   }
+
+ h3{
+   text-align: center;
+   font-size:3em;
+   float:none
+ }
