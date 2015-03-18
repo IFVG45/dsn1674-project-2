@@ -8,7 +8,7 @@ html{
      box-sizing: inherit;
    }
 
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,p{
   font-family: 'Noto Sans', bold;
 }
 h1{
@@ -18,13 +18,26 @@ text-align: center;
 background-color: #e7001d;
 }
 
+main{
+  background-color: red;
+  float:left;
+  /*width: calc(75% - 2rem); */
+  width:75%;
+  padding:  1rem;
+}
+
+h4{
+  font-size:2rem;
+  text-align: center;
+
+}
 nav{
 color:#
 background-color:#000;
 }
 
 nav li{
-  display: inline;
+  display: inline-block;
 }
 
  .inset-left{
@@ -56,19 +69,24 @@ nav li{
     border:0;
   }
 
-  header {
-    background-color: #cd5b34;
-    color: white;
-    display: block;
-    margin: 0;
+  h3 {
+    color:#fff;
     text-align: center;
-  }
+    position: absolute;
+    bottom:-390px;
+    left:70px;
+    }
 
  .medallion{
    float:center;
    width:5%;
-   margin:5px;
+   margin:10px;
    border:0;
+   }
+
+   .banner{
+     width:20%;
+
    }
 
    div{
@@ -97,7 +115,12 @@ nav li{
    }
 
  h2{
-   color: white;
+  margin:0;
+  color:#fff;
+  text-align: center;
+  width:100%;
+  background-color: #e7001d;
+}
  }
 
  .peanuts-left{
