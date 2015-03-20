@@ -8,9 +8,10 @@ html{
      box-sizing: inherit;
    }
 
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p,nav{
   font-family: 'Noto Sans', bold;
 }
+
 h1{
 margin:0;
 color:#fff;
@@ -18,101 +19,103 @@ text-align: center;
 background-color: #e7001d;
 }
 
-main{
-  background-color: red;
-  float:left;
-  /*width: calc(75% - 2rem); */
-  width:75%;
-  padding:  1rem;
+header{
+  background-color:#e7001d;
 }
 
 h4{
   font-size:2rem;
-  text-align: center;
+  text-align: center;}
 
-}
+
 nav{
-color:#
 background-color:#000;
+color: #fff;
 }
 
 nav li{
-  display: inline-block;
+  display: block;
+  padding: 1em;
+  float:left;
+  width:50%;
+  background-color:#000;
 }
 
- .inset-left{
-   float: left;
-   width: 50%;
-   margin-right: 15px;
- }
+ul{
+  background-color: #000;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  width:100%;
+}
 
   .p2{
     clear: both;
   }
 
-  .inset-left-2{
-    float: right;
-    width:50%;
-    margin-right: 0px;
-    padding :0;
-    border: 0;
-    clear: left;
-  }
+header p{
+  text-align: center;
+}
 
+header .symbol{
+  font-size:3em;
+  padding:0;
+}
 
-  .inset-left-3{
-    float:right;
-    width:50%;
-    margin-right: 5px;
-    clear: left;
-    padding: 0;
-    border:0;
-  }
+.zodiac-header,.zodiac-header-white{
+  text-align:center;
+}
 
   h3 {
+    font-size: 0rem;
     color:#fff;
     text-align: center;
-    position: absolute;
-    bottom:-390px;
-    left:70px;
+    position: relative;
+    bottom:120px;
+    left:5px;
     }
 
  .medallion{
-   float:center;
+   float:left;
    width:5%;
-   margin:10px;
+   margin:2px;
    border:0;
-   }
+ }
 
-   .banner{
-     width:20%;
+img{
+     width:100%;
+     text-align:center;
+}
 
-   }
+div img{
+  width: 50%;
+  float: left;
+}
 
-   div{
-     background-color:#e4c22a;
-     border: 1px solid white;
-     overflow: hidden;
-     }
+.dragon{
+  background-color:#e4c22a;
+  border: 1px solid white;
+  overflow: hidden;
+}
 
+.goat{
+  background-color:#222222;
+  border: 1px solid white;
+  overflow: hidden;
+  color:#fff
+  }
 
-   main{
-     background-color: #d98156;
-     float:none;
-     /*width: calc(75% - 2rem); */
-     width:0%;
-     padding:  0rem;
-     color:black;
-   }
-
-
-   aside{
-     float:none;
-     /*width:calc(25% - 2rem);*/
-     width:0%;
-     padding: 0rem;
-     color: white;
-   }
+.rooster{
+  background-color:#bc0017;
+  border: 1px solid white;
+  overflow: hidden;
+  color:#fff
+}
+  .ox{
+    background-color:#e4c22a;
+    border: 1px solid white;
+    overflow: hidden;
+  }
 
  h2{
   margin:0;
@@ -121,38 +124,13 @@ nav li{
   width:100%;
   background-color: #e7001d;
 }
- }
-
- .peanuts-left{
-   clear:left;
-   float:left;
-   width:50%;
-   margin:5px;
-   border:0;
- }
-
- .beans-left{
-   clear:left;
-   float:left;
-   width:50%;
-   margin:5px;
-   border:0;
- }
-
- .lentils-left{
-   clear:left;
-   float:left;
-   width:50%;
-   margin:5px;
-   border:0;
- }
 
  footer{
    background-color:#222222;
    color:#fff;
-   display: block;
-   margin: 0;
    text-align: center;
+   font-size: .8rem;
+   padding:1em;
    }
 
  h3{
